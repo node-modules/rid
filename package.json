@@ -1,6 +1,6 @@
 {
   "name": "rid",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Request Unique ID, base on current server `ip`, `process.pid` and auto increase id, like `$ip,$pid,$id`",
   "main": "index.js",
   "scripts": {
