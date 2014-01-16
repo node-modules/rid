@@ -1,0 +1,52 @@
+{
+  "name": "rid",
+  "version": "0.0.0",
+  "description": "Request Unique ID, base on current server `ip`, `process.pid` and auto increase id, like `$ip,$pid,$id`",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test-all"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "rid/lib",
+      "data-cover-flags": {
+        "debug": false
+      }
+    },
+    "travis-cov": {
+      "threshold": 100
+    }
+  },
+  "dependencies": {
+    "address": "0.0.3"
+  },
+  "devDependencies": {
+    "autod": "*",
+    "blanket": "*",
+    "contributors": "*",
+    "cov": "*",
+    "coveralls": "*",
+    "mocha": "*",
+    "mocha-lcov-reporter": "*",
+    "should": "2.1.1",
+    "travis-cov": "*"
+  },
+  "homepage": "https://github.com/fengmk2/rid",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fengmk2/rid.git",
+    "web": "https://github.com/fengmk2/rid"
+  },
+  "bugs": {
+    "url": "https://github.com/fengmk2/rid/issues",
+    "email": "fengmk2@gmail.com"
+  },
+  "keywords": [
+    "rid"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com)",
+  "license": "MIT"
+}
